@@ -1,0 +1,24 @@
+.footer{
+    background: linear-gradient( 36deg,#f70f0f 8%, #B2388f , #f6fa10);
+    height: 120px;
+  }
+  
+  .redes{
+    font-size: 60px !important;
+    color: #000000;
+  }
+  
+  .footer2{
+    background-color: #000000;
+    height: 60px ;
+
+  }
+  .texto1{
+    color: #000000;
+    height: 30px;
+  }
+  
+  .texto2{
+    color: #FFFFFF;
+  }
+  
