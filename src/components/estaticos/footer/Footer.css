@@ -21,4 +21,9 @@
   .texto2{
     color: #FFFFFF;
   }
+  .texto3{
+    color: #0e0000;
+    background: linear-gradient( 36deg,#f70f0f 8%, #B2388f , #f6fa10);
+    height: 50px;
+  }
   
