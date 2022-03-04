@@ -1,5 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import { Provider } from 'react-redux';
+import store from './store/store';
+
 import Navbar from './components/estaticos/navbar/Navbar';
 import Footer from './components/estaticos/footer/Footer';
 import CadastroUsuario from './paginas/cadastroUsuario/CadastroUsuario';
@@ -15,8 +19,11 @@ import DeletarTema from './components/temas/deletarTema/DeletarTema';
 import './App.css';
 
 
+
+
 function App() {
   return (
+    <Provider store={store}>
     <Router>
       <Navbar />
       <Switch>
@@ -74,6 +81,7 @@ function App() {
 
       <Footer />
     </Router>
+    </Provider>
   );
 }
 
