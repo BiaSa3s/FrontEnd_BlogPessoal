@@ -32,13 +32,9 @@ function Navbar() {
         });
         history.push('/login')
     }
-
     var navbarComponent;
-console.log(
-    token
-)
 
-    if (token != "") {
+    if(token != ""){
         navbarComponent = <AppBar position="static">
             <Toolbar variant="dense" className='nave'>
                 <Box className='cursor'>

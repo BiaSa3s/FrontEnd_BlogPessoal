@@ -17,11 +17,11 @@ function Footer() {
     if(token != ""){
         footerComponent =  <Grid container direction="row" justifyContent="center" alignItems="center">
         <Grid alignItems="center" item xs={12}>
-            <Box className="footer ">
+            <Box className='footer'>
                 <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
                     <Typography variant="h6" align="center" gutterBottom className='texto1'>Siga-nos nas redes sociais </Typography>
                 </Box>
-                <Box display="flex" alignItems="center" justifyContent="center" className="alturaRede">
+                <Box display="flex" alignItems="center" justifyContent="center">
                     <a href="https://www.facebook.com/generationbrasil" target="_blank">
                         <FacebookIcon className='redes' />
                     </a>
